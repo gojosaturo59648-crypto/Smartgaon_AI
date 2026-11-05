@@ -3,7 +3,7 @@ import streamlit as st
 
 from modules.ai_assistant import show_ai_assistant
 from modules.village_planner import show_village_planner
-from modules.electricity import show_electricity
+from modules.electricity import show_electricity_calculator
 from modules.farming import show_farming
 from modules.tree_doctor import show_tree_doctor
 from modules.nutriplate import show_nutriplate
@@ -222,7 +222,7 @@ elif selected == "Waste Management":
     show_waste_management()
 
 elif selected == "Light & Electricity":
-    show_electricity()
+    show_electricity_calculator()
 
 elif selected == "Weather & Disaster":
     show_weather()
